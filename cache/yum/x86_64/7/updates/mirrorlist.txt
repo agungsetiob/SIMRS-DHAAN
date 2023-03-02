@@ -1,0 +1,10 @@
+http://mirror.hostnic.id/centos/7.9.2009/updates/x86_64/
+http://mirror.buana.web.id/centos/7.9.2009/updates/x86_64/
+http://mirror.cloudweeb.com/centos/7.9.2009/updates/x86_64/
+http://kartolo.sby.datautama.net.id/Centos/7.9.2009/updates/x86_64/
+http://mirror.idroot.cloud/centos/7.9.2009/updates/x86_64/
+http://mirror.gi.co.id/centos/7.9.2009/updates/x86_64/
+http://vpsmurah.jagoanhosting.com/centos/7.9.2009/updates/x86_64/
+http://mirror.dewabiz.com/centos/7.9.2009/updates/x86_64/
+http://mirror.unej.ac.id/centos/7.9.2009/updates/x86_64/
+http://mirror.poliwangi.ac.id/centos/7.9.2009/updates/x86_64/

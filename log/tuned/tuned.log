@@ -1,0 +1,633 @@
+2021-05-17 08:30:21,524 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-05-17 08:30:22,097 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-05-17 08:30:22,098 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-05-17 08:30:22,529 INFO     tuned.daemon.daemon: Using 'balanced' profile
+2021-05-17 08:30:22,530 INFO     tuned.profiles.loader: loading profile: balanced
+2021-05-17 08:30:22,606 INFO     tuned.daemon.controller: starting controller
+2021-05-17 08:30:22,606 INFO     tuned.daemon.daemon: starting tuning
+2021-05-17 08:30:22,782 INFO     tuned.plugins.base: instance cpu: assigning devices cpu6, cpu7, cpu4, cpu5, cpu2, cpu3, cpu0, cpu1
+2021-05-17 08:30:22,843 WARNING  tuned.plugins.base: instance audio: no matching devices available
+2021-05-17 08:30:22,844 INFO     tuned.plugins.base: instance video: assigning devices card0
+2021-05-17 08:30:22,844 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-0, dm-1
+2021-05-17 08:30:22,845 INFO     tuned.plugins.base: instance scsi_host: assigning devices host7, host6, host5, host4, host3, host2, host1, host0
+2021-05-17 08:30:22,896 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu6'
+2021-05-17 08:30:22,897 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu7'
+2021-05-17 08:30:22,897 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu4'
+2021-05-17 08:30:22,898 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu5'
+2021-05-17 08:30:22,898 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu2'
+2021-05-17 08:30:22,899 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu3'
+2021-05-17 08:30:22,899 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu0'
+2021-05-17 08:30:22,899 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu1'
+2021-05-17 08:30:22,902 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-05-17 08:30:22,906 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-05-17 08:30:22,910 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-05-17 08:30:22,914 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-05-17 08:30:22,917 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-05-17 08:30:22,921 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-05-17 08:30:22,925 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-05-17 08:30:22,929 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-05-17 08:30:22,932 ERROR    tuned.utils.commands: Error when reading file '/sys/class/drm/card0/device/power_method': '[Errno 2] No such file or directory: u'/sys/class/drm/card0/device/power_method''
+2021-05-17 08:30:22,933 WARNING  tuned.plugins.plugin_video: radeon_powersave is not supported on 'card0'
+2021-05-17 08:30:22,933 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host7/link_power_management_policy') not found, skipping ALPM setting for 'host7'
+2021-05-17 08:30:22,933 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host6/link_power_management_policy') not found, skipping ALPM setting for 'host6'
+2021-05-17 08:30:22,934 INFO     tuned.daemon.daemon: static tuning from profile 'balanced' applied
+2021-05-17 09:09:23,951 INFO     tuned.plugins.hotplug: device 'host6' removed
+2021-05-17 09:10:13,419 INFO     tuned.daemon.controller: terminating controller
+2021-05-17 09:10:13,420 INFO     tuned.daemon.daemon: stopping tuning
+2021-05-17 09:10:14,433 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-05-17 09:10:14,434 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-05-17 09:10:14,438 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-05-17 09:10:14,442 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-05-17 09:10:14,446 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-05-17 09:10:14,450 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-05-17 09:10:14,454 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-05-17 09:10:14,459 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-05-17 09:10:14,463 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-05-17 09:10:14,467 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu6'
+2021-05-17 09:10:14,467 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu7'
+2021-05-17 09:10:14,468 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu4'
+2021-05-17 09:10:14,469 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu5'
+2021-05-17 09:10:14,469 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu2'
+2021-05-17 09:10:14,469 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu3'
+2021-05-17 09:10:14,470 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu0'
+2021-05-17 09:10:14,470 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu1'
+2021-05-17 09:12:53,884 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-05-17 09:12:53,892 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-05-17 09:12:53,892 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-05-17 09:12:53,998 INFO     tuned.daemon.daemon: Using 'balanced' profile
+2021-05-17 09:12:53,999 INFO     tuned.profiles.loader: loading profile: balanced
+2021-05-17 09:12:54,006 INFO     tuned.daemon.controller: starting controller
+2021-05-17 09:12:54,006 INFO     tuned.daemon.daemon: starting tuning
+2021-05-17 09:12:54,012 INFO     tuned.plugins.base: instance cpu: assigning devices cpu6, cpu7, cpu4, cpu5, cpu2, cpu3, cpu0, cpu1
+2021-05-17 09:12:54,016 WARNING  tuned.plugins.base: instance audio: no matching devices available
+2021-05-17 09:12:54,016 INFO     tuned.plugins.base: instance video: assigning devices card0
+2021-05-17 09:12:54,016 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-0, dm-1
+2021-05-17 09:12:54,017 INFO     tuned.plugins.base: instance scsi_host: assigning devices host6, host5, host4, host3, host2, host1, host0
+2021-05-17 09:12:54,017 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu6'
+2021-05-17 09:12:54,018 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu7'
+2021-05-17 09:12:54,018 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu4'
+2021-05-17 09:12:54,019 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu5'
+2021-05-17 09:12:54,019 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu2'
+2021-05-17 09:12:54,020 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu3'
+2021-05-17 09:12:54,020 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu0'
+2021-05-17 09:12:54,021 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu1'
+2021-05-17 09:12:54,023 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-05-17 09:12:54,028 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-05-17 09:12:54,032 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-05-17 09:12:54,036 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-05-17 09:12:54,040 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-05-17 09:12:54,044 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-05-17 09:12:54,048 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-05-17 09:12:54,053 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-05-17 09:12:54,056 ERROR    tuned.utils.commands: Error when reading file '/sys/class/drm/card0/device/power_method': '[Errno 2] No such file or directory: u'/sys/class/drm/card0/device/power_method''
+2021-05-17 09:12:54,057 WARNING  tuned.plugins.plugin_video: radeon_powersave is not supported on 'card0'
+2021-05-17 09:12:54,057 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host6/link_power_management_policy') not found, skipping ALPM setting for 'host6'
+2021-05-17 09:12:54,057 INFO     tuned.daemon.daemon: static tuning from profile 'balanced' applied
+2021-05-17 11:42:45,032 INFO     tuned.daemon.controller: terminating controller
+2021-05-17 11:42:45,033 INFO     tuned.daemon.daemon: stopping tuning
+2021-05-17 11:42:45,281 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-05-17 11:42:45,283 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-05-17 11:42:45,288 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-05-17 11:42:45,292 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-05-17 11:42:45,296 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-05-17 11:42:45,301 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-05-17 11:42:45,305 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-05-17 11:42:45,309 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-05-17 11:42:45,313 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-05-17 11:42:45,318 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu6'
+2021-05-17 11:42:45,319 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu7'
+2021-05-17 11:42:45,319 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu4'
+2021-05-17 11:42:45,320 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu5'
+2021-05-17 11:42:45,320 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu2'
+2021-05-17 11:42:45,320 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu3'
+2021-05-17 11:42:45,321 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu0'
+2021-05-17 11:42:45,321 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu1'
+2021-05-17 11:44:37,753 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-05-17 11:44:37,762 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-05-17 11:44:37,762 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-05-17 11:44:37,869 INFO     tuned.daemon.daemon: Using 'balanced' profile
+2021-05-17 11:44:37,870 INFO     tuned.profiles.loader: loading profile: balanced
+2021-05-17 11:44:37,874 INFO     tuned.daemon.controller: starting controller
+2021-05-17 11:44:37,874 INFO     tuned.daemon.daemon: starting tuning
+2021-05-17 11:44:37,881 INFO     tuned.plugins.base: instance cpu: assigning devices cpu6, cpu7, cpu4, cpu5, cpu2, cpu3, cpu0, cpu1
+2021-05-17 11:44:37,883 WARNING  tuned.plugins.base: instance audio: no matching devices available
+2021-05-17 11:44:37,883 INFO     tuned.plugins.base: instance video: assigning devices card0
+2021-05-17 11:44:37,883 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-0, dm-1
+2021-05-17 11:44:37,884 INFO     tuned.plugins.base: instance scsi_host: assigning devices host6, host5, host4, host3, host2, host1, host0
+2021-05-17 11:44:37,884 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu6'
+2021-05-17 11:44:37,885 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu7'
+2021-05-17 11:44:37,885 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu4'
+2021-05-17 11:44:37,886 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu5'
+2021-05-17 11:44:37,887 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu2'
+2021-05-17 11:44:37,888 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu3'
+2021-05-17 11:44:37,888 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu0'
+2021-05-17 11:44:37,889 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu1'
+2021-05-17 11:44:37,891 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-05-17 11:44:37,895 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-05-17 11:44:37,899 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-05-17 11:44:37,902 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-05-17 11:44:37,907 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-05-17 11:44:37,911 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-05-17 11:44:37,915 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-05-17 11:44:37,919 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-05-17 11:44:37,922 ERROR    tuned.utils.commands: Error when reading file '/sys/class/drm/card0/device/power_method': '[Errno 2] No such file or directory: u'/sys/class/drm/card0/device/power_method''
+2021-05-17 11:44:37,923 WARNING  tuned.plugins.plugin_video: radeon_powersave is not supported on 'card0'
+2021-05-17 11:44:37,923 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host6/link_power_management_policy') not found, skipping ALPM setting for 'host6'
+2021-05-17 11:44:37,924 INFO     tuned.daemon.daemon: static tuning from profile 'balanced' applied
+2021-05-17 14:04:24,611 INFO     tuned.daemon.controller: terminating controller
+2021-05-17 14:04:24,612 INFO     tuned.daemon.daemon: stopping tuning
+2021-05-17 14:04:24,864 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-05-17 14:04:24,866 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-05-17 14:04:24,871 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-05-17 14:04:24,875 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-05-17 14:04:24,879 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-05-17 14:04:24,883 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-05-17 14:04:24,887 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-05-17 14:04:24,891 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-05-17 14:04:24,895 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-05-17 14:04:24,899 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu6'
+2021-05-17 14:04:24,899 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu7'
+2021-05-17 14:04:24,900 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu4'
+2021-05-17 14:04:24,900 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu5'
+2021-05-17 14:04:24,900 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu2'
+2021-05-17 14:04:24,900 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu3'
+2021-05-17 14:04:24,901 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu0'
+2021-05-17 14:04:24,901 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu1'
+2021-06-04 07:45:26,488 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-06-04 07:45:26,496 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-06-04 07:45:26,496 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-06-04 07:45:26,599 INFO     tuned.daemon.daemon: Using 'balanced' profile
+2021-06-04 07:45:26,600 INFO     tuned.profiles.loader: loading profile: balanced
+2021-06-04 07:45:26,605 INFO     tuned.daemon.controller: starting controller
+2021-06-04 07:45:26,605 INFO     tuned.daemon.daemon: starting tuning
+2021-06-04 07:45:26,610 INFO     tuned.plugins.base: instance cpu: assigning devices cpu6, cpu7, cpu4, cpu5, cpu2, cpu3, cpu0, cpu1
+2021-06-04 07:45:26,614 WARNING  tuned.plugins.base: instance audio: no matching devices available
+2021-06-04 07:45:26,615 INFO     tuned.plugins.base: instance video: assigning devices card0
+2021-06-04 07:45:26,615 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-0, dm-1
+2021-06-04 07:45:26,615 INFO     tuned.plugins.base: instance scsi_host: assigning devices host6, host5, host4, host3, host2, host1, host0
+2021-06-04 07:45:26,616 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu6'
+2021-06-04 07:45:26,616 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu7'
+2021-06-04 07:45:26,616 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu4'
+2021-06-04 07:45:26,617 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu5'
+2021-06-04 07:45:26,617 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu2'
+2021-06-04 07:45:26,618 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu3'
+2021-06-04 07:45:26,618 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu0'
+2021-06-04 07:45:26,619 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu1'
+2021-06-04 07:45:26,621 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-06-04 07:45:26,626 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-06-04 07:45:26,630 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-06-04 07:45:26,634 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-06-04 07:45:26,638 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-06-04 07:45:26,642 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-06-04 07:45:26,645 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-06-04 07:45:26,649 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-06-04 07:45:26,653 ERROR    tuned.utils.commands: Error when reading file '/sys/class/drm/card0/device/power_method': '[Errno 2] No such file or directory: u'/sys/class/drm/card0/device/power_method''
+2021-06-04 07:45:26,653 WARNING  tuned.plugins.plugin_video: radeon_powersave is not supported on 'card0'
+2021-06-04 07:45:26,653 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host6/link_power_management_policy') not found, skipping ALPM setting for 'host6'
+2021-06-04 07:45:26,654 INFO     tuned.daemon.daemon: static tuning from profile 'balanced' applied
+2021-06-05 11:00:18,865 INFO     tuned.daemon.controller: terminating controller
+2021-06-05 11:00:18,867 INFO     tuned.daemon.daemon: stopping tuning
+2021-06-05 11:00:19,409 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-06-05 11:00:19,411 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-06-05 11:00:19,416 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-06-05 11:00:19,421 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-06-05 11:00:19,425 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-06-05 11:00:19,429 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-06-05 11:00:19,434 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-06-05 11:00:19,438 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-06-05 11:00:19,442 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-06-05 11:00:19,446 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu6'
+2021-06-05 11:00:19,447 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu7'
+2021-06-05 11:00:19,447 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu4'
+2021-06-05 11:00:19,447 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu5'
+2021-06-05 11:00:19,448 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu2'
+2021-06-05 11:00:19,448 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu3'
+2021-06-05 11:00:19,449 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu0'
+2021-06-05 11:00:19,449 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu1'
+2021-06-05 11:02:15,259 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-06-05 11:02:15,267 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-06-05 11:02:15,267 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-06-05 11:02:15,371 INFO     tuned.daemon.daemon: Using 'balanced' profile
+2021-06-05 11:02:15,371 INFO     tuned.profiles.loader: loading profile: balanced
+2021-06-05 11:02:15,377 INFO     tuned.daemon.controller: starting controller
+2021-06-05 11:02:15,377 INFO     tuned.daemon.daemon: starting tuning
+2021-06-05 11:02:15,383 INFO     tuned.plugins.base: instance cpu: assigning devices cpu6, cpu7, cpu4, cpu5, cpu2, cpu3, cpu0, cpu1
+2021-06-05 11:02:15,386 WARNING  tuned.plugins.base: instance audio: no matching devices available
+2021-06-05 11:02:15,387 INFO     tuned.plugins.base: instance video: assigning devices card0
+2021-06-05 11:02:15,387 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-0, dm-1
+2021-06-05 11:02:15,387 INFO     tuned.plugins.base: instance scsi_host: assigning devices host6, host5, host4, host3, host2, host1, host0
+2021-06-05 11:02:15,388 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu6'
+2021-06-05 11:02:15,388 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu7'
+2021-06-05 11:02:15,389 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu4'
+2021-06-05 11:02:15,389 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu5'
+2021-06-05 11:02:15,390 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu2'
+2021-06-05 11:02:15,390 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu3'
+2021-06-05 11:02:15,390 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu0'
+2021-06-05 11:02:15,391 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu1'
+2021-06-05 11:02:15,394 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-06-05 11:02:15,399 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-06-05 11:02:15,405 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-06-05 11:02:15,411 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-06-05 11:02:15,416 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-06-05 11:02:15,422 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-06-05 11:02:15,427 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-06-05 11:02:15,432 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-06-05 11:02:15,437 ERROR    tuned.utils.commands: Error when reading file '/sys/class/drm/card0/device/power_method': '[Errno 2] No such file or directory: u'/sys/class/drm/card0/device/power_method''
+2021-06-05 11:02:15,437 WARNING  tuned.plugins.plugin_video: radeon_powersave is not supported on 'card0'
+2021-06-05 11:02:15,437 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host6/link_power_management_policy') not found, skipping ALPM setting for 'host6'
+2021-06-05 11:02:15,438 INFO     tuned.daemon.daemon: static tuning from profile 'balanced' applied
+2021-06-05 11:16:32,367 INFO     tuned.daemon.controller: terminating controller
+2021-06-05 11:16:32,368 INFO     tuned.daemon.daemon: stopping tuning
+2021-06-05 11:16:33,364 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-06-05 11:16:33,365 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-06-05 11:16:33,369 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-06-05 11:16:33,372 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-06-05 11:16:33,375 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-06-05 11:16:33,378 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-06-05 11:16:33,381 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-06-05 11:16:33,384 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-06-05 11:16:33,387 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-06-05 11:16:33,390 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu6'
+2021-06-05 11:16:33,390 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu7'
+2021-06-05 11:16:33,390 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu4'
+2021-06-05 11:16:33,391 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu5'
+2021-06-05 11:16:33,391 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu2'
+2021-06-05 11:16:33,392 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu3'
+2021-06-05 11:16:33,392 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu0'
+2021-06-05 11:16:33,393 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu1'
+2021-06-07 08:50:40,608 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-06-07 08:50:40,616 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-06-07 08:50:40,616 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-06-07 08:50:40,722 INFO     tuned.daemon.daemon: Using 'balanced' profile
+2021-06-07 08:50:40,723 INFO     tuned.profiles.loader: loading profile: balanced
+2021-06-07 08:50:40,727 INFO     tuned.daemon.controller: starting controller
+2021-06-07 08:50:40,727 INFO     tuned.daemon.daemon: starting tuning
+2021-06-07 08:50:40,733 INFO     tuned.plugins.base: instance cpu: assigning devices cpu6, cpu7, cpu4, cpu5, cpu2, cpu3, cpu0, cpu1
+2021-06-07 08:50:40,736 WARNING  tuned.plugins.base: instance audio: no matching devices available
+2021-06-07 08:50:40,736 INFO     tuned.plugins.base: instance video: assigning devices card0
+2021-06-07 08:50:40,736 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-0, dm-1
+2021-06-07 08:50:40,737 INFO     tuned.plugins.base: instance scsi_host: assigning devices host6, host5, host4, host3, host2, host1, host0
+2021-06-07 08:50:40,737 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu6'
+2021-06-07 08:50:40,738 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu7'
+2021-06-07 08:50:40,738 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu4'
+2021-06-07 08:50:40,739 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu5'
+2021-06-07 08:50:40,739 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu2'
+2021-06-07 08:50:40,740 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu3'
+2021-06-07 08:50:40,740 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu0'
+2021-06-07 08:50:40,740 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu1'
+2021-06-07 08:50:40,743 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-06-07 08:50:40,748 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-06-07 08:50:40,753 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-06-07 08:50:40,758 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-06-07 08:50:40,763 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-06-07 08:50:40,767 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-06-07 08:50:40,773 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-06-07 08:50:40,778 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-06-07 08:50:40,781 ERROR    tuned.utils.commands: Error when reading file '/sys/class/drm/card0/device/power_method': '[Errno 2] No such file or directory: u'/sys/class/drm/card0/device/power_method''
+2021-06-07 08:50:40,782 WARNING  tuned.plugins.plugin_video: radeon_powersave is not supported on 'card0'
+2021-06-07 08:50:40,782 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host6/link_power_management_policy') not found, skipping ALPM setting for 'host6'
+2021-06-07 08:50:40,783 INFO     tuned.daemon.daemon: static tuning from profile 'balanced' applied
+2021-06-07 15:40:00,781 INFO     tuned.daemon.controller: terminating controller
+2021-06-07 15:40:00,782 INFO     tuned.daemon.daemon: stopping tuning
+2021-06-07 15:40:00,835 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-06-07 15:40:00,838 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-06-07 15:40:00,846 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-06-07 15:40:00,852 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-06-07 15:40:00,858 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-06-07 15:40:00,864 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-06-07 15:40:00,870 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-06-07 15:40:00,875 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-06-07 15:40:00,880 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-06-07 15:40:00,885 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu6'
+2021-06-07 15:40:00,886 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu7'
+2021-06-07 15:40:00,886 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu4'
+2021-06-07 15:40:00,887 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu5'
+2021-06-07 15:40:00,887 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu2'
+2021-06-07 15:40:00,887 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu3'
+2021-06-07 15:40:00,888 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu0'
+2021-06-07 15:40:00,888 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu1'
+2021-07-13 08:15:16,561 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-07-13 08:15:16,568 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-07-13 08:15:16,568 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-07-13 08:15:16,672 INFO     tuned.daemon.daemon: Using 'balanced' profile
+2021-07-13 08:15:16,674 INFO     tuned.profiles.loader: loading profile: balanced
+2021-07-13 08:15:16,680 INFO     tuned.daemon.controller: starting controller
+2021-07-13 08:15:16,680 INFO     tuned.daemon.daemon: starting tuning
+2021-07-13 08:15:16,686 INFO     tuned.plugins.base: instance cpu: assigning devices cpu6, cpu7, cpu4, cpu5, cpu2, cpu3, cpu0, cpu1
+2021-07-13 08:15:16,689 WARNING  tuned.plugins.base: instance audio: no matching devices available
+2021-07-13 08:15:16,689 INFO     tuned.plugins.base: instance video: assigning devices card0
+2021-07-13 08:15:16,690 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-0, dm-1
+2021-07-13 08:15:16,690 INFO     tuned.plugins.base: instance scsi_host: assigning devices host6, host5, host4, host3, host2, host1, host0
+2021-07-13 08:15:16,691 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu6'
+2021-07-13 08:15:16,691 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu7'
+2021-07-13 08:15:16,692 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu4'
+2021-07-13 08:15:16,692 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu5'
+2021-07-13 08:15:16,693 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu2'
+2021-07-13 08:15:16,693 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu3'
+2021-07-13 08:15:16,694 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu0'
+2021-07-13 08:15:16,695 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu1'
+2021-07-13 08:15:16,697 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-07-13 08:15:16,702 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-07-13 08:15:16,707 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-07-13 08:15:16,712 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-07-13 08:15:16,717 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-07-13 08:15:16,722 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-07-13 08:15:16,727 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-07-13 08:15:16,732 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-07-13 08:15:16,736 ERROR    tuned.utils.commands: Error when reading file '/sys/class/drm/card0/device/power_method': '[Errno 2] No such file or directory: u'/sys/class/drm/card0/device/power_method''
+2021-07-13 08:15:16,736 WARNING  tuned.plugins.plugin_video: radeon_powersave is not supported on 'card0'
+2021-07-13 08:15:16,737 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host6/link_power_management_policy') not found, skipping ALPM setting for 'host6'
+2021-07-13 08:15:16,737 INFO     tuned.daemon.daemon: static tuning from profile 'balanced' applied
+2021-07-24 11:58:21,789 INFO     tuned.daemon.controller: terminating controller
+2021-07-24 11:58:22,768 INFO     tuned.daemon.daemon: stopping tuning
+2021-07-24 11:58:23,927 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-07-24 11:58:25,117 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-07-24 11:58:25,195 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-07-24 11:58:25,200 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-07-24 11:58:25,204 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-07-24 11:58:25,209 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-07-24 11:58:25,213 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-07-24 11:58:25,221 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-07-24 11:58:25,226 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-07-24 11:58:25,237 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu6'
+2021-07-24 11:58:25,239 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu7'
+2021-07-24 11:58:25,240 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu4'
+2021-07-24 11:58:25,240 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu5'
+2021-07-24 11:58:25,240 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu2'
+2021-07-24 11:58:25,240 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu3'
+2021-07-24 11:58:25,241 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu0'
+2021-07-24 11:58:25,241 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu1'
+2021-07-24 12:05:47,475 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-07-24 12:05:47,483 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-07-24 12:05:47,484 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-07-24 12:05:47,593 INFO     tuned.daemon.daemon: Using 'balanced' profile
+2021-07-24 12:05:47,595 INFO     tuned.profiles.loader: loading profile: balanced
+2021-07-24 12:05:47,601 INFO     tuned.daemon.controller: starting controller
+2021-07-24 12:05:47,601 INFO     tuned.daemon.daemon: starting tuning
+2021-07-24 12:05:47,607 INFO     tuned.plugins.base: instance cpu: assigning devices cpu6, cpu7, cpu4, cpu5, cpu2, cpu3, cpu0, cpu1
+2021-07-24 12:05:47,610 WARNING  tuned.plugins.base: instance audio: no matching devices available
+2021-07-24 12:05:47,610 INFO     tuned.plugins.base: instance video: assigning devices card0
+2021-07-24 12:05:47,610 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-0, dm-1
+2021-07-24 12:05:47,611 INFO     tuned.plugins.base: instance scsi_host: assigning devices host6, host5, host4, host3, host2, host1, host0
+2021-07-24 12:05:47,611 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu6'
+2021-07-24 12:05:47,612 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu7'
+2021-07-24 12:05:47,612 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu4'
+2021-07-24 12:05:47,613 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu5'
+2021-07-24 12:05:47,613 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu2'
+2021-07-24 12:05:47,614 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu3'
+2021-07-24 12:05:47,614 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu0'
+2021-07-24 12:05:47,615 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu1'
+2021-07-24 12:05:47,617 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-07-24 12:05:47,621 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-07-24 12:05:47,625 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-07-24 12:05:47,630 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-07-24 12:05:47,634 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-07-24 12:05:47,638 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-07-24 12:05:47,642 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-07-24 12:05:47,647 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-07-24 12:05:47,650 ERROR    tuned.utils.commands: Error when reading file '/sys/class/drm/card0/device/power_method': '[Errno 2] No such file or directory: u'/sys/class/drm/card0/device/power_method''
+2021-07-24 12:05:47,651 WARNING  tuned.plugins.plugin_video: radeon_powersave is not supported on 'card0'
+2021-07-24 12:05:47,651 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host6/link_power_management_policy') not found, skipping ALPM setting for 'host6'
+2021-07-24 12:05:47,652 INFO     tuned.daemon.daemon: static tuning from profile 'balanced' applied
+2021-07-27 10:40:39,447 INFO     tuned.daemon.controller: terminating controller
+2021-07-27 10:40:39,449 INFO     tuned.daemon.daemon: stopping tuning
+2021-07-27 10:40:39,860 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-07-27 10:40:39,862 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-07-27 10:40:39,869 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-07-27 10:40:39,874 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-07-27 10:40:39,879 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-07-27 10:40:39,884 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-07-27 10:40:39,890 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-07-27 10:40:39,894 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-07-27 10:40:39,899 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-07-27 10:40:39,908 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu6'
+2021-07-27 10:40:39,909 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu7'
+2021-07-27 10:40:39,909 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu4'
+2021-07-27 10:40:39,909 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu5'
+2021-07-27 10:40:39,910 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu2'
+2021-07-27 10:40:39,910 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu3'
+2021-07-27 10:40:39,911 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu0'
+2021-07-27 10:40:39,911 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu1'
+2021-07-27 10:47:28,172 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-07-27 10:47:28,179 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-07-27 10:47:28,179 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-07-27 10:47:28,286 INFO     tuned.daemon.daemon: Using 'balanced' profile
+2021-07-27 10:47:28,287 INFO     tuned.profiles.loader: loading profile: balanced
+2021-07-27 10:47:28,294 INFO     tuned.daemon.controller: starting controller
+2021-07-27 10:47:28,295 INFO     tuned.daemon.daemon: starting tuning
+2021-07-27 10:47:28,299 INFO     tuned.plugins.base: instance cpu: assigning devices cpu6, cpu7, cpu4, cpu5, cpu2, cpu3, cpu0, cpu1
+2021-07-27 10:47:28,304 WARNING  tuned.plugins.base: instance audio: no matching devices available
+2021-07-27 10:47:28,304 INFO     tuned.plugins.base: instance video: assigning devices card0
+2021-07-27 10:47:28,305 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-0, dm-1
+2021-07-27 10:47:28,305 INFO     tuned.plugins.base: instance scsi_host: assigning devices host6, host5, host4, host3, host2, host1, host0
+2021-07-27 10:47:28,306 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu6'
+2021-07-27 10:47:28,306 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu7'
+2021-07-27 10:47:28,307 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu4'
+2021-07-27 10:47:28,307 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu5'
+2021-07-27 10:47:28,308 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu2'
+2021-07-27 10:47:28,308 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu3'
+2021-07-27 10:47:28,309 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu0'
+2021-07-27 10:47:28,309 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu1'
+2021-07-27 10:47:28,312 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-07-27 10:47:28,317 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-07-27 10:47:28,320 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-07-27 10:47:28,324 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-07-27 10:47:28,327 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-07-27 10:47:28,332 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-07-27 10:47:28,336 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-07-27 10:47:28,340 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-07-27 10:47:28,344 ERROR    tuned.utils.commands: Error when reading file '/sys/class/drm/card0/device/power_method': '[Errno 2] No such file or directory: u'/sys/class/drm/card0/device/power_method''
+2021-07-27 10:47:28,344 WARNING  tuned.plugins.plugin_video: radeon_powersave is not supported on 'card0'
+2021-07-27 10:47:28,344 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host6/link_power_management_policy') not found, skipping ALPM setting for 'host6'
+2021-07-27 10:47:28,345 INFO     tuned.daemon.daemon: static tuning from profile 'balanced' applied
+2021-07-30 09:48:24,948 INFO     tuned.plugins.hotplug: device 'host7' added
+2021-07-30 09:48:24,950 INFO     tuned.plugins.hotplug: instance scsi_host: adding new device host7
+2021-07-30 09:48:24,951 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host7/link_power_management_policy') not found, skipping ALPM setting for 'host7'
+2021-07-30 09:48:25,015 INFO     tuned.plugins.hotplug: device 'sdc' added
+2021-07-30 09:48:25,016 INFO     tuned.plugins.hotplug: instance disk: adding new device sdc
+2021-07-30 09:48:56,682 INFO     tuned.plugins.hotplug: device 'host7' removed
+2021-08-18 14:03:56,532 INFO     tuned.daemon.controller: terminating controller
+2021-08-18 14:03:58,410 INFO     tuned.daemon.daemon: stopping tuning
+2021-08-18 14:04:02,018 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-08-18 14:04:02,782 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-08-18 14:04:02,821 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-08-18 14:04:02,827 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-08-18 14:04:02,833 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-08-18 14:04:02,838 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-08-18 14:04:02,844 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-08-18 14:04:02,850 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-08-18 14:04:02,856 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-08-18 14:04:02,862 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu6'
+2021-08-18 14:04:02,884 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu7'
+2021-08-18 14:04:02,885 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu4'
+2021-08-18 14:04:02,886 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu5'
+2021-08-18 14:04:02,887 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu2'
+2021-08-18 14:04:02,887 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu3'
+2021-08-18 14:04:02,887 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu0'
+2021-08-18 14:04:02,888 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu1'
+2021-08-18 14:12:05,199 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-08-18 14:12:05,207 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-08-18 14:12:05,207 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-08-18 14:12:05,311 INFO     tuned.daemon.daemon: Using 'balanced' profile
+2021-08-18 14:12:05,312 INFO     tuned.profiles.loader: loading profile: balanced
+2021-08-18 14:12:05,317 INFO     tuned.daemon.controller: starting controller
+2021-08-18 14:12:05,317 INFO     tuned.daemon.daemon: starting tuning
+2021-08-18 14:12:05,322 INFO     tuned.plugins.base: instance cpu: assigning devices cpu6, cpu7, cpu4, cpu5, cpu2, cpu3, cpu0, cpu1
+2021-08-18 14:12:05,326 WARNING  tuned.plugins.base: instance audio: no matching devices available
+2021-08-18 14:12:05,326 INFO     tuned.plugins.base: instance video: assigning devices card0
+2021-08-18 14:12:05,327 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-0, dm-1
+2021-08-18 14:12:05,327 INFO     tuned.plugins.base: instance scsi_host: assigning devices host6, host5, host4, host3, host2, host1, host0
+2021-08-18 14:12:05,328 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu6'
+2021-08-18 14:12:05,328 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu7'
+2021-08-18 14:12:05,328 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu4'
+2021-08-18 14:12:05,329 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu5'
+2021-08-18 14:12:05,329 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu2'
+2021-08-18 14:12:05,330 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu3'
+2021-08-18 14:12:05,330 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu0'
+2021-08-18 14:12:05,331 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu1'
+2021-08-18 14:12:05,333 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-08-18 14:12:05,337 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-08-18 14:12:05,340 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-08-18 14:12:05,344 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-08-18 14:12:05,348 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-08-18 14:12:05,352 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-08-18 14:12:05,356 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-08-18 14:12:05,360 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-08-18 14:12:05,363 ERROR    tuned.utils.commands: Error when reading file '/sys/class/drm/card0/device/power_method': '[Errno 2] No such file or directory: u'/sys/class/drm/card0/device/power_method''
+2021-08-18 14:12:05,364 WARNING  tuned.plugins.plugin_video: radeon_powersave is not supported on 'card0'
+2021-08-18 14:12:05,364 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host6/link_power_management_policy') not found, skipping ALPM setting for 'host6'
+2021-08-18 14:12:05,365 INFO     tuned.daemon.daemon: static tuning from profile 'balanced' applied
+2021-09-10 14:37:46,146 INFO     tuned.daemon.controller: terminating controller
+2021-09-10 14:37:48,164 INFO     tuned.daemon.daemon: stopping tuning
+2021-09-10 14:37:49,437 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-09-10 14:37:50,054 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-09-10 14:37:50,144 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-09-10 14:37:50,148 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-09-10 14:37:50,153 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-09-10 14:37:50,157 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-09-10 14:37:50,161 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-09-10 14:37:50,164 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-09-10 14:37:50,168 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-09-10 14:37:50,173 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu6'
+2021-09-10 14:37:50,174 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu7'
+2021-09-10 14:37:50,175 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu4'
+2021-09-10 14:37:50,175 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu5'
+2021-09-10 14:37:50,176 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu2'
+2021-09-10 14:37:50,176 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu3'
+2021-09-10 14:37:50,176 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu0'
+2021-09-10 14:37:50,176 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu1'
+2021-09-10 14:46:03,349 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-09-10 14:46:03,358 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-09-10 14:46:03,358 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-09-10 14:46:03,468 INFO     tuned.daemon.daemon: Using 'balanced' profile
+2021-09-10 14:46:03,469 INFO     tuned.profiles.loader: loading profile: balanced
+2021-09-10 14:46:03,476 INFO     tuned.daemon.controller: starting controller
+2021-09-10 14:46:03,476 INFO     tuned.daemon.daemon: starting tuning
+2021-09-10 14:46:03,481 INFO     tuned.plugins.base: instance cpu: assigning devices cpu6, cpu7, cpu4, cpu5, cpu2, cpu3, cpu0, cpu1
+2021-09-10 14:46:03,485 WARNING  tuned.plugins.base: instance audio: no matching devices available
+2021-09-10 14:46:03,485 INFO     tuned.plugins.base: instance video: assigning devices card0
+2021-09-10 14:46:03,485 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-0, dm-1
+2021-09-10 14:46:03,485 INFO     tuned.plugins.base: instance scsi_host: assigning devices host6, host5, host4, host3, host2, host1, host0
+2021-09-10 14:46:03,486 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu6'
+2021-09-10 14:46:03,486 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu7'
+2021-09-10 14:46:03,487 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu4'
+2021-09-10 14:46:03,487 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu5'
+2021-09-10 14:46:03,488 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu2'
+2021-09-10 14:46:03,489 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu3'
+2021-09-10 14:46:03,489 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu0'
+2021-09-10 14:46:03,490 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu1'
+2021-09-10 14:46:03,492 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-09-10 14:46:03,497 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-09-10 14:46:03,501 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-09-10 14:46:03,505 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-09-10 14:46:03,509 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-09-10 14:46:03,514 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-09-10 14:46:03,518 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-09-10 14:46:03,522 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-09-10 14:46:03,526 ERROR    tuned.utils.commands: Error when reading file '/sys/class/drm/card0/device/power_method': '[Errno 2] No such file or directory: u'/sys/class/drm/card0/device/power_method''
+2021-09-10 14:46:03,527 WARNING  tuned.plugins.plugin_video: radeon_powersave is not supported on 'card0'
+2021-09-10 14:46:03,527 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host6/link_power_management_policy') not found, skipping ALPM setting for 'host6'
+2021-09-10 14:46:03,527 INFO     tuned.daemon.daemon: static tuning from profile 'balanced' applied
+2021-11-05 09:48:17,009 INFO     tuned.daemon.controller: terminating controller
+2021-11-05 09:48:18,178 INFO     tuned.daemon.daemon: stopping tuning
+2021-11-05 09:48:21,350 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-11-05 09:48:21,988 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-11-05 09:48:22,039 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-11-05 09:48:22,047 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-11-05 09:48:22,056 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-11-05 09:48:22,064 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-11-05 09:48:22,073 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-11-05 09:48:22,081 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-11-05 09:48:22,089 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-11-05 09:48:22,115 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu6'
+2021-11-05 09:48:22,122 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu7'
+2021-11-05 09:48:22,123 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu4'
+2021-11-05 09:48:22,124 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu5'
+2021-11-05 09:48:22,125 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu2'
+2021-11-05 09:48:22,125 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu3'
+2021-11-05 09:48:22,125 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu0'
+2021-11-05 09:48:22,125 INFO     tuned.plugins.plugin_cpu: setting governor 'ondemand' on cpu 'cpu1'
+2021-11-05 09:55:48,620 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-11-05 09:55:48,629 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-11-05 09:55:48,629 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-11-05 09:55:48,737 INFO     tuned.daemon.daemon: Using 'balanced' profile
+2021-11-05 09:55:48,738 INFO     tuned.profiles.loader: loading profile: balanced
+2021-11-05 09:55:48,744 INFO     tuned.daemon.controller: starting controller
+2021-11-05 09:55:48,744 INFO     tuned.daemon.daemon: starting tuning
+2021-11-05 09:55:48,749 INFO     tuned.plugins.base: instance cpu: assigning devices cpu6, cpu7, cpu4, cpu5, cpu2, cpu3, cpu0, cpu1
+2021-11-05 09:55:48,753 WARNING  tuned.plugins.base: instance audio: no matching devices available
+2021-11-05 09:55:48,753 INFO     tuned.plugins.base: instance video: assigning devices card0
+2021-11-05 09:55:48,753 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-0, dm-1
+2021-11-05 09:55:48,754 INFO     tuned.plugins.base: instance scsi_host: assigning devices host6, host5, host4, host3, host2, host1, host0
+2021-11-05 09:55:48,754 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu6'
+2021-11-05 09:55:48,755 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu7'
+2021-11-05 09:55:48,755 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu4'
+2021-11-05 09:55:48,756 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu5'
+2021-11-05 09:55:48,756 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu2'
+2021-11-05 09:55:48,757 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu3'
+2021-11-05 09:55:48,757 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu0'
+2021-11-05 09:55:48,758 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu1'
+2021-11-05 09:55:48,760 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2021-11-05 09:55:48,764 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2021-11-05 09:55:48,767 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2021-11-05 09:55:48,772 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2021-11-05 09:55:48,776 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2021-11-05 09:55:48,780 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2021-11-05 09:55:48,783 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2021-11-05 09:55:48,788 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2021-11-05 09:55:48,792 ERROR    tuned.utils.commands: Error when reading file '/sys/class/drm/card0/device/power_method': '[Errno 2] No such file or directory: u'/sys/class/drm/card0/device/power_method''
+2021-11-05 09:55:48,793 WARNING  tuned.plugins.plugin_video: radeon_powersave is not supported on 'card0'
+2021-11-05 09:55:48,793 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host6/link_power_management_policy') not found, skipping ALPM setting for 'host6'
+2021-11-05 09:55:48,794 INFO     tuned.daemon.daemon: static tuning from profile 'balanced' applied
+2023-02-04 07:48:00,936 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2023-02-04 07:48:00,943 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2023-02-04 07:48:00,943 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2023-02-04 07:48:01,050 INFO     tuned.daemon.daemon: Using 'balanced' profile
+2023-02-04 07:48:01,051 INFO     tuned.profiles.loader: loading profile: balanced
+2023-02-04 07:48:01,055 INFO     tuned.daemon.controller: starting controller
+2023-02-04 07:48:01,055 INFO     tuned.daemon.daemon: starting tuning
+2023-02-04 07:48:01,061 INFO     tuned.plugins.base: instance cpu: assigning devices cpu6, cpu7, cpu4, cpu5, cpu2, cpu3, cpu0, cpu1
+2023-02-04 07:48:01,065 WARNING  tuned.plugins.base: instance audio: no matching devices available
+2023-02-04 07:48:01,065 INFO     tuned.plugins.base: instance video: assigning devices card0
+2023-02-04 07:48:01,065 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-0, dm-1
+2023-02-04 07:48:01,066 INFO     tuned.plugins.base: instance scsi_host: assigning devices host6, host5, host4, host3, host2, host1, host0
+2023-02-04 07:48:01,066 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu6'
+2023-02-04 07:48:01,067 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu7'
+2023-02-04 07:48:01,067 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu4'
+2023-02-04 07:48:01,069 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu5'
+2023-02-04 07:48:01,070 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu2'
+2023-02-04 07:48:01,070 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu3'
+2023-02-04 07:48:01,071 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu0'
+2023-02-04 07:48:01,071 INFO     tuned.plugins.plugin_cpu: setting governor 'conservative' on cpu 'cpu1'
+2023-02-04 07:48:01,074 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu6'
+2023-02-04 07:48:01,079 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu7'
+2023-02-04 07:48:01,085 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu4'
+2023-02-04 07:48:01,090 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu5'
+2023-02-04 07:48:01,095 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu2'
+2023-02-04 07:48:01,100 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu3'
+2023-02-04 07:48:01,105 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu0'
+2023-02-04 07:48:01,110 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'normal' on cpu 'cpu1'
+2023-02-04 07:48:01,114 ERROR    tuned.utils.commands: Error when reading file '/sys/class/drm/card0/device/power_method': '[Errno 2] No such file or directory: u'/sys/class/drm/card0/device/power_method''
+2023-02-04 07:48:01,115 WARNING  tuned.plugins.plugin_video: radeon_powersave is not supported on 'card0'
+2023-02-04 07:48:01,115 INFO     tuned.plugins.plugin_scsi_host: ALPM control file ('/sys/class/scsi_host/host6/link_power_management_policy') not found, skipping ALPM setting for 'host6'
+2023-02-04 07:48:01,115 INFO     tuned.daemon.daemon: static tuning from profile 'balanced' applied

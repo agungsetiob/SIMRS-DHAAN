@@ -1,0 +1,1 @@
+{"NAME":"pasien.6310015-CetakKartu","TYPE":"Pdf","EXT":"pdf","PARAMETER":{"PNORM":225029},"REQUEST_FOR_PRINT":false,"CONNECTION_NUMBER":0}

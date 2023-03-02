@@ -1,0 +1,16 @@
+mirror.telkomuniversity.ac.id 0.156669139862
+mirror.buana.web.id 0.320058822632
+mirror.hostnic.id 0.28916311264
+mirror.poliwangi.ac.id 0.227777004242
+mirror.gi.co.id 0.345609903336
+kartolo.sby.datautama.net.id 0.233583927155
+mirror.labkom.id 0.289398908615
+mirror.dewabiz.com 0.54560303688
+mirror.herza.id 99999999999
+vpsmurah.jagoanhosting.com 99999999999
+mirror.cloudweeb.com 99999999999
+mirror.unej.ac.id 0.287280082703
+mirror.biznetgio.com 0.627686977386
+mirror.idroot.cloud 0.507528066635
+centos.mirror.angkasa.id 0.412165880203
+mirror.papua.go.id 99999999999

@@ -1,0 +1,10 @@
+http://mirror.telkomuniversity.ac.id/centos/7.9.2009/os/x86_64/
+http://mirror.buana.web.id/centos/7.9.2009/os/x86_64/
+http://mirror.labkom.id/centos/7.9.2009/os/x86_64/
+http://mirror.dewabiz.com/centos/7.9.2009/os/x86_64/
+http://mirror.hostnic.id/centos/7.9.2009/os/x86_64/
+http://mirror.unej.ac.id/centos/7.9.2009/os/x86_64/
+http://mirror.biznetgio.com/centos/7.9.2009/os/x86_64/
+http://mirror.herza.id/centos/7.9.2009/os/x86_64/
+http://mirror.cloudweeb.com/centos/7.9.2009/os/x86_64/
+http://vpsmurah.jagoanhosting.com/centos/7.9.2009/os/x86_64/

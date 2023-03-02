@@ -1,0 +1,10 @@
+http://mirror.unej.ac.id/centos/7.9.2009/extras/x86_64/
+http://vpsmurah.jagoanhosting.com/centos/7.9.2009/extras/x86_64/
+http://centos.mirror.angkasa.id/centos/7.9.2009/extras/x86_64/
+http://mirror.cloudweeb.com/centos/7.9.2009/extras/x86_64/
+http://mirror.dewabiz.com/centos/7.9.2009/extras/x86_64/
+http://mirror.papua.go.id/centos/7.9.2009/extras/x86_64/
+http://mirror.telkomuniversity.ac.id/centos/7.9.2009/extras/x86_64/
+http://kartolo.sby.datautama.net.id/Centos/7.9.2009/extras/x86_64/
+http://mirror.herza.id/centos/7.9.2009/extras/x86_64/
+http://mirror.poliwangi.ac.id/centos/7.9.2009/extras/x86_64/

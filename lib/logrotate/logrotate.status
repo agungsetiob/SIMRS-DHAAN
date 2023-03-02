@@ -1,0 +1,17 @@
+logrotate state -- version 2
+"/var/log/yum.log" 2022-1-1-3:35:3
+"/var/log/boot.log" 2023-2-4-8:25:2
+"/var/log/httpd/error_log" 2023-2-26-3:22:1
+"/var/log/wtmp" 2021-5-17-10:0:0
+"/var/log/php-fpm/www-error.log" 2023-2-26-3:22:1
+"/var/log/spooler" 2023-2-26-3:22:1
+"/var/log/btmp" 2023-3-1-3:11:1
+"/var/log/xferlog" 2023-2-26-3:22:1
+"/var/log/maillog" 2023-2-5-3:32:3
+"/var/log/php-fpm/error.log" 2023-2-26-3:22:1
+"/var/log/wpa_supplicant.log" 2022-5-19-3:0:0
+"/var/log/secure" 2023-2-26-3:22:1
+"/var/log/messages" 2023-2-27-3:29:1
+"/var/log/httpd/access_log" 2023-2-26-3:22:1
+"/var/log/cron" 2023-2-27-3:29:1
+"/var/log/vsftpd.log" 2022-5-19-3:0:0
